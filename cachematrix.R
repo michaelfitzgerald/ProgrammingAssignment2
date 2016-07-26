@@ -1,7 +1,7 @@
 ## The functions will invert an (invertible) matrix. By caching the result the
 ## the cacheSolve function can retrive the result rather than recalculating. 
 
-## This function uses the solve function to invert an invertible matrix and 
+## This function uses the solve function to invert an square matrix and 
 ## make the result available in a parent environment.
 makeCacheMatrix <- function(x=matrix()) {
     
